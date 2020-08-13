@@ -1,27 +1,5 @@
 {
-  "logs": [
-    {
-      "message": "Write unit tests",
-      "attention": false,
-      "tech": "Sam Smith",
-      "date": "2020-05-31T15:46:10.179Z",
-      "id": 1
-    },
-    {
-      "id": 2,
-      "message": "Update backend server settings",
-      "attention": false,
-      "tech": "John Doe",
-      "date": "2020-05-31T16:18:04.245Z"
-    },
-    {
-      "message": "Approve pull request",
-      "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2020-05-31T15:46:48.690Z",
-      "id": 3
-    }
-  ],
+  "logs": [],
   "techs": [
     {
       "id": 1,
