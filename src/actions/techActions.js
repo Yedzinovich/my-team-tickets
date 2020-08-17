@@ -26,7 +26,7 @@ export const getTechs = () => async (dispatch) => {
   }
 };
 
-// Add technician to server
+// Add tech
 export const addTech = (tech) => async (dispatch) => {
   try {
     setLoading();

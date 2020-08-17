@@ -2,10 +2,10 @@
   "logs": [
     {
       "id": 1,
-      "message": "Created a new page ",
+      "message": "Update a page",
       "attention": true,
-      "tech": "John Doe",
-      "date": "2020-08-17T21:46:51.268Z"
+      "tech": "Antuan Bongoure",
+      "date": "2020-08-17T22:14:26.305Z"
     }
   ],
   "techs": [
@@ -23,6 +23,16 @@
       "id": 3,
       "firstName": "Sara",
       "lastName": "Wilson"
+    },
+    {
+      "firstName": "Antuan",
+      "lastName": "Bongoure",
+      "id": 4
+    },
+    {
+      "firstName": "Paul",
+      "lastName": "Col",
+      "id": 5
     }
   ]
 }
