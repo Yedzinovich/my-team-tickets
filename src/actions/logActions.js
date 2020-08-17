@@ -5,12 +5,12 @@ import {
   ADD_LOG,
   DELETE_LOG,
   UPDATE_LOG,
+  SEARCH_LOGS,
   SET_CURRENT,
   CLEAR_CURRENT,
-  SEARCH_LOGS,
 } from './types';
 
-//Get Logs from the server
+// Get logs from server
 export const getLogs = () => async (dispatch) => {
   try {
     setLoading();
@@ -25,7 +25,7 @@ export const getLogs = () => async (dispatch) => {
   } catch (err) {
     dispatch({
       type: LOGS_ERROR,
-      payload: err.res.data,
+      payload: err.response.statusText,
     });
   }
 };
@@ -51,7 +51,7 @@ export const addLog = (log) => async (dispatch) => {
   } catch (err) {
     dispatch({
       type: LOGS_ERROR,
-      payload: err.res.data,
+      payload: err.response.statusText,
     });
   }
 };
@@ -72,12 +72,12 @@ export const deleteLog = (id) => async (dispatch) => {
   } catch (err) {
     dispatch({
       type: LOGS_ERROR,
-      payload: err.res.data,
+      payload: err.response.statusText,
     });
   }
 };
 
-// Update Log
+// Update log on server
 export const updateLog = (log) => async (dispatch) => {
   try {
     setLoading();
@@ -99,12 +99,12 @@ export const updateLog = (log) => async (dispatch) => {
   } catch (err) {
     dispatch({
       type: LOGS_ERROR,
-      payload: err.res.data,
+      payload: err.response.statusText,
     });
   }
 };
 
-// Search Logs pn server
+// Search server logs
 export const searchLogs = (text) => async (dispatch) => {
   try {
     setLoading();
@@ -119,7 +119,7 @@ export const searchLogs = (text) => async (dispatch) => {
   } catch (err) {
     dispatch({
       type: LOGS_ERROR,
-      payload: err.res.data,
+      payload: err.response.statusText,
     });
   }
 };
@@ -133,7 +133,7 @@ export const setCurrent = (log) => {
 };
 
 // Clear current log
-export const clearCurrentLog = () => {
+export const clearCurrent = () => {
   return {
     type: CLEAR_CURRENT,
   };

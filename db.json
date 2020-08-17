@@ -1,5 +1,13 @@
 {
-  "logs": [],
+  "logs": [
+    {
+      "id": 1,
+      "message": "Created a new page ",
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2020-08-17T21:46:51.268Z"
+    }
+  ],
   "techs": [
     {
       "id": 1,

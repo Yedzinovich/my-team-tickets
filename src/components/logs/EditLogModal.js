@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import TechSelectOptions from '../techs/TechSelectOptions';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import M from 'materialize-css/dist/js/materialize.min.js';
@@ -32,7 +33,7 @@ const EditLogModal = ({ current, updateLog }) => {
       updateLog(updLog);
       M.toast({ html: `Log updated by ${tech}` });
 
-      //Clear fields
+      // Clear Fields
       setMessage('');
       setTech('');
       setAttention(false);
@@ -53,6 +54,7 @@ const EditLogModal = ({ current, updateLog }) => {
             />
           </div>
         </div>
+
         <div className='row'>
           <div className='input-field'>
             <select
@@ -64,26 +66,26 @@ const EditLogModal = ({ current, updateLog }) => {
               <option value='' disabled>
                 Select Technician
               </option>
-              <option value='John Doe'>John Doe</option>
-              <option value='Sam Smith'>Sam Smith</option>
-              <option value='Sara Wilson'>Sara Wilson</option>
+              <TechSelectOptions />
             </select>
           </div>
         </div>
+
         <div className='row'>
-          <input className='input-field' />
-          <p>
-            <label>
-              <input
-                type='checkbox'
-                className='filled-in'
-                checked={attention}
-                value={attention}
-                onChange={(e) => setAttention(!attention)}
-              />
-              <span>Needs Attention</span>
-            </label>
-          </p>
+          <div className='input-field'>
+            <p>
+              <label>
+                <input
+                  type='checkbox'
+                  className='filled-in'
+                  checked={attention}
+                  value={attention}
+                  onChange={(e) => setAttention(!attention)}
+                />
+                <span>Needs Attention</span>
+              </label>
+            </p>
+          </div>
         </div>
       </div>
       <div className='modal-footer'>
