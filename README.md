@@ -2,7 +2,7 @@
 
 my-team-tickets app simulates a simple ticketing system for my fake company. 
 
-## `Build With`
+### `Build With`
 
 <ul>
     <li>React/Redux</li>
