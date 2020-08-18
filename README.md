@@ -21,5 +21,8 @@ Please run the following commands:
 Runs the app with the backend JSON-Server
 Open http://localhost:3000
 
-npm run build
+<ul>
+    <li>npm run build</li>
+</ul
+
 Builds the app for production to the build folder.
