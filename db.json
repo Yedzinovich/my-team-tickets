@@ -1,11 +1,18 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Update a page",
+      "message": "Delivering this feature aligns with our quarterly business goal KPI, which is: to increase candidate sign-ups.",
       "attention": true,
       "tech": "Antuan Bongoure",
-      "date": "2020-08-17T22:14:26.305Z"
+      "date": "2020-08-18T00:27:54.578Z",
+      "id": 1
+    },
+    {
+      "message": "Write Unit Tests",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2020-08-18T00:29:07.009Z",
+      "id": 2
     }
   ],
   "techs": [
@@ -28,11 +35,6 @@
       "firstName": "Antuan",
       "lastName": "Bongoure",
       "id": 4
-    },
-    {
-      "firstName": "Paul",
-      "lastName": "Col",
-      "id": 5
     }
   ]
 }
