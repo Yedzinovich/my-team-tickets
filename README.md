@@ -10,7 +10,6 @@ my-team-tickets app simulates a simple ticketing system for my fake company.
     <li>Materializecss</li>
 </ul>
 
-### `npm start`
+### `How to run this application`
 
-Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
