@@ -9,7 +9,3 @@ my-team-tickets app simulates a simple ticketing system for my fake company.
     <li>json-server</li>
     <li>Materializecss</li>
 </ul>
-
-### `How to run this application`
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
