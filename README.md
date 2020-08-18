@@ -14,7 +14,7 @@ my-team-tickets app simulates a simple ticketing system for my fake company.
 
 Please run the following commands:
 <ul>
-    <li>npm install/li>
+    <li>npm install</li>
     <li>npm run dev</li>
 </ul
 
